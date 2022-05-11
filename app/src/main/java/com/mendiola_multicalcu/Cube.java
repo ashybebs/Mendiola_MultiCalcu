@@ -11,8 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Cube extends AppCompatActivity implements View.OnClickListener {
 
     EditText txtSide;
-    double var1,ans;
-    TextView txt_answer;
+    double num1, Cube;
+    TextView answer;
     Button btnCalc;
 
     @Override
@@ -21,16 +21,16 @@ public class Cube extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.cube);
         btnCalc = findViewById(R.id.btnCalc);
         txtSide = findViewById(R.id.fillin1);
-        txt_answer = findViewById(R.id.answer);
+        answer = findViewById(R.id.answer);
         btnCalc.setOnClickListener(this);
     }
 
 
     @Override
     public void onClick(View view) {
-        var1 = Double.parseDouble(txtSide.getText().toString());
-        ans = var1 * var1 * var1;
-        txt_answer.setText("The area is: " + ans);
+        num1 = Double.parseDouble(txtSide.getText().toString());
+        Cube = num1 * num1 * num1;
+        answer.setText("The area is: " + Cube);
     }
 
 }

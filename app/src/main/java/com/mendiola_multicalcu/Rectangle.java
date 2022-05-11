@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Rectangle extends AppCompatActivity implements View.OnClickListener {
 
     EditText length, width;
-    double var1, var2 ,ans;
+    double num1, num2, Rectangle;
     TextView answer;
     Button btnCalc;
 
@@ -28,10 +28,10 @@ public class Rectangle extends AppCompatActivity implements View.OnClickListener
 
     @Override
     public void onClick(View view) {
-        var1 = Double.parseDouble(length.getText().toString());
-        var2 = Double.parseDouble(width.getText().toString());
-        ans = var1 * var2;
-        answer.setText("The area is: " + ans);
+        num1 = Double.parseDouble(length.getText().toString());
+        num2 = Double.parseDouble(width.getText().toString());
+        Rectangle = num1 * num2;
+        answer.setText("The area is: " + Rectangle);
     }
 
 }

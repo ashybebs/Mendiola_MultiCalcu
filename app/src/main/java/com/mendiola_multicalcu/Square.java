@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Square extends AppCompatActivity implements View.OnClickListener {
 
     EditText fillin;
-    double var1,ans;
+    double num1, Square;
     TextView answer;
     Button btn_calc;
 
@@ -27,9 +27,9 @@ public class Square extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-        var1 = Double.parseDouble(fillin.getText().toString());
-        ans = var1 * var1;
-        answer.setText("The area is: " + ans);
+        num1 = Double.parseDouble(fillin.getText().toString());
+        Square = num1 * num1;
+        answer.setText("The area is: " + Square);
     }
 
 }

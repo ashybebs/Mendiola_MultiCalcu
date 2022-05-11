@@ -11,8 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Cylinder extends AppCompatActivity implements View.OnClickListener {
 
     EditText txtLength, txtWidth, txtHeight;
-    double var1, var2, var3,ans;
-    TextView txt_answer;
+    double num1, num2, Cylinder;
+    TextView answer;
     Button btnCalc;
 
     @Override
@@ -22,17 +22,17 @@ public class Cylinder extends AppCompatActivity implements View.OnClickListener 
         btnCalc = findViewById(R.id.btnCalc);
         txtLength = findViewById(R.id.fillin1);
         txtWidth = findViewById(R.id.fillin2);
-        txt_answer = findViewById(R.id.answer);
+        answer = findViewById(R.id.answer);
         btnCalc.setOnClickListener(this);
     }
 
 
     @Override
     public void onClick(View view) {
-        var1 = Double.parseDouble(txtLength.getText().toString());
-        var2 = Double.parseDouble(txtWidth.getText().toString());
-        ans = var1 * var1 * var2 * Math.PI;
-        txt_answer.setText("The area is: " + ans);
+        num1 = Double.parseDouble(txtLength.getText().toString());
+        num2 = Double.parseDouble(txtWidth.getText().toString());
+        Cylinder = num1 * num1 * num2 * Math.PI;
+        answer.setText("The area is: " + Cylinder);
     }
 
 }
