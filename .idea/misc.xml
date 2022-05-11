@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/activity_main.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/area.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/circle.xml" value="0.2" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/cone.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/cube.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/cylinder.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/pick_shape.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/prism.xml" value="0.25" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/rectangle.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/square.xml" value="0.25" />
         <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Mendiola_MultiCalcu/app/src/main/res/layout/volume.xml" value="0.18541666666666667" />
       </map>
     </option>

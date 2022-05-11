@@ -18,6 +18,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Circle"
+            android:exported="true"/>
+        <activity
+            android:name=".Cone"
+            android:exported="true"/>
+        <activity
+            android:name=".Cube"
+            android:exported="true"/>
+        <activity
+            android:name=".Cylinder"
+            android:exported="true"/>
+        <activity
+            android:name=".Rectangle"
+            android:exported="true"/>
+        <activity
+            android:name=".Square"
+            android:exported="true"/>
+        <activity
+            android:name=".Volume"
+            android:exported="true"/>
+        <activity
+            android:name=".Area"
+            android:exported="true"/>
     </application>
 
 </manifest>

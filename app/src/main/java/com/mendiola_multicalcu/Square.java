@@ -29,7 +29,7 @@ public class Square extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View view) {
         var1 = Double.parseDouble(fillin.getText().toString());
         ans = var1 * var1;
-        answer.setText("The area is " + ans);
+        answer.setText("The area is: " + ans);
     }
 
 }

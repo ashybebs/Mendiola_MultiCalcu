@@ -7,7 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.muliloda_multicalc.Area.AreaChoose;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
         btnArea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, AreaChoose.class));
+                startActivity(new Intent(MainActivity.this, Area.class));
             }
 
         });
         btnVolume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, VolumeChoose.class));
+                startActivity(new Intent(MainActivity.this, Volume.class));
             }
         });
     }

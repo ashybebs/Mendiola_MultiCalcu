@@ -30,7 +30,7 @@ public class Cube extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View view) {
         var1 = Double.parseDouble(txtSide.getText().toString());
         ans = var1 * var1 * var1;
-        txt_answer.setText("The volume is:" + ans);
+        txt_answer.setText("The area is: " + ans);
     }
 
 }

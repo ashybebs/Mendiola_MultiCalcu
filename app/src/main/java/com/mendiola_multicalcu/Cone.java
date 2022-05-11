@@ -31,7 +31,7 @@ public class Cone extends AppCompatActivity implements View.OnClickListener {
         var1 = Double.parseDouble(txtRadius.getText().toString());
         var2 = Double.parseDouble(txtHeight.getText().toString());
         ans = Math.PI* var1 *var1* var2/3;
-        txt_answer.setText("The volume is: " + ans);
+        txt_answer.setText("The area is: " + ans);
     }
 
 }
